@@ -1,0 +1,27 @@
+<div style="width:500px;margin:auto;" class="card bg-light text-dark mt-5">
+    <div class="card-body">
+        
+        <div class="container">
+            <div class="d-flex align-items-center">
+                <h2>Login User Detail</h2>
+                <div class="ml-auto" (click)="logout()">logout</div>
+            </div>         
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Password</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>{{someState.name}}</td>
+                        <td>{{someState.email}}</td>
+                        <td>{{someState.password}}</td>
+                    </tr>
+                </tbody>
+            </table>
+          </div>
+    </div>
+</div>
